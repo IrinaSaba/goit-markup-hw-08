@@ -1,0 +1,45 @@
+.skils.section {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+.skils__details-list {
+  display: flex;
+  justify-content: center;
+}
+.skils__details-item:not(:last-child) {
+  margin-right: 30px;
+}
+.skils__details-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: var(--color-background);
+  width: 270px;
+  height: 120px;
+}
+
+.skils__details-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.grey.text {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 10px;
+  display: block;
+  width: 270px;
+}
+.work {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
