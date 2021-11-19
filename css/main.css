@@ -723,7 +723,6 @@ ul {
   align-items: center;
   justify-content: center;
   color: var(--color-teachers-social);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .teachers__socials-item .teachers__socials-link:hover, .teachers__socials-item .teachers__socials-link:focus {
