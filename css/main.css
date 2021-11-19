@@ -67,7 +67,7 @@ ul {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -587,6 +587,12 @@ ul {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .work-details.section {
+    display: none;
+  }
+}
+
 .work-details__gallery-list {
   display: flex;
 }
@@ -619,7 +625,7 @@ ul {
 .work {
   font-family: Roboto;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
