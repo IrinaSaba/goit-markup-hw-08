@@ -251,6 +251,24 @@ ul {
   margin-top: 30px;
 }
 
+.title-all {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 1200px) {
+  .title-all {
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+  }
+}
+
 .page-header {
   display: flex;
   justify-content: space-evenly;
@@ -740,51 +758,51 @@ ul {
   margin-top: 10px;
 }
 
-.work {
-  font-family: Roboto;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  margin-bottom: 30px;
+.clients.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
-  .work {
-    font-size: 36px;
-    line-height: 1.16;
-    margin-bottom: 50px;
+  .clients.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
-}
-
-.clients.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.clients__title {
-  margin-bottom: 50px;
-  text-align: center;
 }
 
 .clients__socials-list {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-bottom: -30px;
 }
 
 .clients__socials-item {
-  margin-right: 30px;
+  width: 100%;
+  width: calc(100% / 2 - 30px);
+  margin-left: 30px;
+  margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.clients__socials-item:last-child {
-  margin-right: 0;
+@media screen and (min-width: 768px) {
+  .clients__socials-item {
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__socials-item {
+    width: calc(100% / 6 - 30px);
+    margin-left: 30px;
+  }
 }
 
 .clients__socials-link {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
   height: 92px;
   border: solid 1px var(--color-teachers-social);
   border-radius: 4px;
