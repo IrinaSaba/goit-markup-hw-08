@@ -1,18 +1,25 @@
 .main__portfolio {
-  padding-top: 100px;
-  padding-bottom: 94px;
-}
-.container-portfolio {
-  display: flex;
-  flex-direction: column;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 100px;
+    padding-bottom: 94px;
+  }
 }
 .main__portfolio-nav {
   display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin-bottom: -8px;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
   .main__portfolio-nav-item:not(:last-child) {
     margin-right: 8px;
   }
+}
+.main__portfolio-nav-item {
+  margin-bottom: 8px;
 }
 .btn__nav {
   background: var(--color-background);
