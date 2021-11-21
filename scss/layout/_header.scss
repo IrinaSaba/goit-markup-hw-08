@@ -63,6 +63,8 @@
   & .link:focus {
     color: var(--special-color);
   }
+  @media screen and (min-width: 1200px) {
+  }
 }
 .menu__list-item-studio,
 .menu__list-item-portfolio,
