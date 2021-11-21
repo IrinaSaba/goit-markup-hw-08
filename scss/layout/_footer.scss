@@ -7,8 +7,6 @@
   text-align: center;
   @media screen and (min-width: 1200px) {
     display: flex;
-  }
-  @media screen and (min-width: 1200px) {
     text-align: start;
   }
 }
@@ -22,6 +20,9 @@
 }
 .page-footer__contact {
   margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    margin-right: 165px;
+  }
   @media screen and (min-width: 1200px) {
     margin-right: 70px;
     text-align: start;
