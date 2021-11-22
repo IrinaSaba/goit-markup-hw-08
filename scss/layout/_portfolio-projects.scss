@@ -33,6 +33,13 @@
     margin-right: 30px;
   }
 }
+.main__information-project-item-first {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
 .main__information-project-item-card {
   position: relative;
   overflow: hidden;
@@ -59,6 +66,9 @@
   border-right: 1px solid var(--color-border);
   border-bottom: 1px solid var(--color-border);
   padding: 20px 24px;
+  @media screen and (min-width: 768px) {
+    flex-grow: 1;
+  }
 }
 .main__information-project-item-title {
   font-weight: 700;
